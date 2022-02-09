@@ -15,12 +15,12 @@ function setup() {
 
 function draw() {
  background(220);
- canvasRect(clrs[4], height/2, height/2, false);
- canvasRect(clrs[0], height/2, 0, false);
+ canvasRect(clrs[3], height/3, height/2, false);
+ canvasRect(clrs[2], height/2, 0, false);
  fill(clrs[2]); 
  rect(width * 1/3, height * 1/6, width * 1/3, height * 2/3); 
  canvasRect(clrs[1], height/6, height/3, true);
- canvasRect(clrs[3], height/6, height/2, true);
+ canvasRect(clrs[4], height/6, height/2, true);
 
 
 }
